@@ -1,0 +1,18 @@
+name: ChanceDropping
+version: ${project.version}
+main: io.github.newtyman.chancedropping.ChanceDropping
+api-version: 1.16
+authors: [ NewtyMan ]
+description: Adds custom blocks/items to normal block drops
+website: https://newtyman.github.io
+
+commands:
+  chancedrop:
+    description: "Adds a block chance drop to another block"
+    permission: chancedrop.set
+
+
+permissions:
+  chancedrop.set:
+    description: "Gives permission to use /chancedrop"
+    default: op

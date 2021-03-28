@@ -1,0 +1,11 @@
+error-invalid-syntax: "&6/chancedrop (add | remove | list) BLOCK (hand | DROP | index) (chance)"
+error-invalid-block: "&c[ERROR] &fInvalid Block at Argument"
+error-cannot-be-air: "&c[ERROR] &fBlock cannot be AIR"
+error-invalid-chance: "&c[ERROR] &fInvalid Chance Amount"
+error-invalid-index: "&c[ERROR] &fInvalid Item Index"
+error-out-of-bound-index: "&c[ERROR] &fIndex Out Of Bounds"
+
+success-added-item: "&aSuccessfully added item to block"
+success-removed-item: "&aSuccessfully removed item from block"
+
+list-format-text: "&c{index}: &e{item} &a({chance}%)"
